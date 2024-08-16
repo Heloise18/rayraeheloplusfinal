@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Variaveis css */
+:root{
+    --branco-principal:#FFFFFF;
+    --cinza-primario:#C0C0C0;
+    --cinza-secundario:#F9F9F9;
+    --azul-botao:#167BF7;
+    --cor-do-fundo:#00030C;
+
+}
+
+/* utilizando as variáveis CSS */
+    body{
+        background-color: var(--cor-do-fundo);
+        color: var(--branco-principal);
+    }
+
+    .principal{
+        background-image: url(img/Background.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        grid-template-columns: 50% 50%;
+    }
+
+    .container{
+        height: 100vh;
+        display: grid;
+    }
+
+    .container__botao{
+        background-color: var(--azul-botao);
+        border-radius: 5px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+        margin-bottom: 1em;
+    }
