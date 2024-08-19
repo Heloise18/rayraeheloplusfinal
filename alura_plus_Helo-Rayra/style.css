@@ -12,12 +12,18 @@
     --azul-botao:#167BF7;
     --cor-do-fundo:#00030C;
 
+    --fonte-principal: "inter";
+    font-size: 16px;
+    --font-weight: 400;
+
 }
+
 
 /* utilizando as variáveis CSS */
     body{
         background-color: var(--cor-do-fundo);
         color: var(--branco-principal);
+        font-family: var(--fonte-principal);
     }
 
     .principal{
@@ -41,3 +47,15 @@
         text-decoration: none;
         margin-bottom: 1em;
     }
+
+    .botao_secundario{
+        background-color: transparent;
+        border: 2px solid var(--branco-principal);
+    }
+
+    .container__aviso{
+        font-size: 12px ;
+        color: var(--cinza-secundario);
+
+    }
+
